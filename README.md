@@ -37,7 +37,7 @@ The dataset includes real operational parameters and detailed failure labels, ma
 - **Tool wear [min]**
 
 ### **Targets**
-- **Machine failure (0/1)**  
+- **Machine failure (0/1)**  (False/True)
 - **Failure types:**  
   - TWF (Tool Wear Failure)  
   - HDF (Heat Dissipation Failure)  
