@@ -24,7 +24,7 @@ The dataset includes real operational parameters and detailed failure labels, ma
 ---
 
 ## 📊 Dataset Description
-**Source:** Provided industrial machine failure dataset  
+**Source:** Kaggle industrial machine failure dataset  
 **Rows:** 10,000  
 **Columns:** 14  
 **Missing values:** None  
