@@ -65,8 +65,7 @@ These provide rich labels for both **binary failure prediction** and **multi-cla
 - Anomaly detection (Isolation Forest, PCA)  
 - Failure prediction models (Logistic Regression, Random Forest, Gradient Boosting)
 
-### **Visualization & Reporting**
-- Interactive dashboards (Tableau)  
+### **Visualization & Reporting** 
 - Industrial-style plots & charts  
 - Final report in **MS Word**  
 - Executive summary in **PowerPoint**
