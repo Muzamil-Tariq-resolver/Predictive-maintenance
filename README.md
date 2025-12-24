@@ -5,7 +5,7 @@ Industrial Predictive Maintenance project using Physics-based analysis, sensor d
 
 ### **Author:** Muzamil Tariq
 ### **Education:** Bachelor of Science in Physics  
-### **Skills:** Pandas · NumPy · SQL · Seaborn · Matplotlib · Scipy · Statsmodels · Scikit-Learn · Tableau · MS Word · PowerPoint
+### **Skills:** Pandas · NumPy · Seaborn · Matplotlib · Scipy · Statsmodels · Scikit-Learn · Tableau · MS Word · PowerPoint
 
 ---
 
