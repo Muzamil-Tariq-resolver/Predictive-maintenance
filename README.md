@@ -5,8 +5,6 @@
 **Tags:** Physics · Vibration Analysis · Machine Learning · Industrial Analytics  
 
 **Author:** Muzamil Tariq  
-**Education:** Bachelor of Science in Physics  
-**Skills:** Python (Pandas · NumPy · Seaborn · Matplotlib · SciPy · Statsmodels · Scikit-Learn), MS Word, PowerPoint  
 
 ---
 
