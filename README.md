@@ -30,7 +30,6 @@ Unplanned machine failures are costly in industries like Manufacturing, Automoti
 - **Source:** Kaggle – Industrial Machine Failure Dataset  
 - **Observations:** 10,000  
 - **Features:** 14 sensor and operational parameters  
-- **Missing Values:** None  
 
 **Key Features:**  
 - Air temperature [K]  
