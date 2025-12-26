@@ -1,73 +1,85 @@
-# Predictive-maintenance
-Industrial Predictive Maintenance project using Physics-based analysis, sensor data, and Machine Learning to detect machine failures.
- 
-**Physics · Vibration Proxy Analysis · Machine Learning · Industrial Analytics**
+# Predictive-Maintenance
 
-### **Author:** Muzamil Tariq
-### **Education:** Bachelor of Science in Physics  
-### **Skills:** Pandas · NumPy · Seaborn · Matplotlib · Scipy · Statsmodels · Scikit-Learn· MS Word · PowerPoint
+**Industrial Predictive Maintenance using Physics-Based Analytics, Sensor Data, and Machine Learning**
 
----
+**Tags:** Physics · Vibration Analysis · Machine Learning · Industrial Analytics  
 
-## 📌 Project Overview
-This project focuses on predicting machine failures using **sensor data**, combining the analytical strength of **data science** with the physical intuition from **BS Physics**.
-
-Real-world industries like **Manufacturing**, **Automotive**, and **Aerospace** rely on predictive maintenance to prevent costly downtime. This project demonstrates:
-
-- Physics-driven interpretation (temperature, torque, rotational speed, wear)  
-- Statistical analysis using Statsmodels  
-- Machine learning anomaly and failure prediction  
-- Professional reporting and visualization for industrial decision-making
-
-The dataset includes real operational parameters and detailed failure labels, making it ideal for a complete predictive-maintenance pipeline.
+**Author:** Muzamil Tariq  
+**Education:** Bachelor of Science in Physics  
+**Skills:** Python (Pandas · NumPy · Seaborn · Matplotlib · SciPy · Statsmodels · Scikit-Learn), MS Word, PowerPoint  
 
 ---
 
-## 📊 Dataset Description
-**Source:** Kaggle industrial machine failure dataset  
-**Rows:** 10,000  
-**Columns:** 14  
-**Missing values:** None  
+## Project Overview
 
-### **Key Features**
-- **Air temperature [K]**  
-- **Process temperature [K]**  
-- **Rotational speed [rpm]**  
-- **Torque [Nm]**  
-- **Tool wear [min]**
+Unplanned machine failures are costly in industries like Manufacturing, Automotive, and Aerospace. This project demonstrates how predictive maintenance can prevent downtime by combining **sensor data**, **physics-based insights**, and **machine learning**.
 
-### **Targets**
-- **Machine failure (0/1)**  (False/True)
-- **Failure types:**  
-  - TWF (Tool Wear Failure)  
-  - HDF (Heat Dissipation Failure)  
-  - PWF (Power Failure)  
-  - OSF (Overstrain Failure)  
-  - RNF (Random Failure)
+**Key goals:**  
+- Predict machine failures before they occur  
+- Understand physical mechanisms behind different failure modes  
+- Provide actionable insights for industrial decision-making  
 
-These provide rich labels for both **binary failure prediction** and **multi-class failure classification**.
+**Highlights:**  
+- Physics-driven feature analysis (temperature, torque, rotational speed, tool wear)  
+- Statistical modeling to uncover relationships between operational parameters and failures  
+- Machine learning models for anomaly detection and predictive failure classification  
+- Professional reporting and visualization for stakeholders  
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Dataset Description
 
-### **Physics & Engineering**
-- Thermal analysis (air/process temperatures)  
-- Mechanical load interpretation (torque & RPM)  
-- Wear progression modeling  
-- Failure mechanism understanding  
+- **Source:** Kaggle – Industrial Machine Failure Dataset  
+- **Observations:** 10,000  
+- **Features:** 14 sensor and operational parameters  
+- **Missing Values:** None  
 
-### **Data Science**
+**Key Features:**  
+- Air temperature [K]  
+- Process temperature [K]  
+- Rotational speed [rpm]  
+- Torque [Nm]  
+- Tool wear [min]  
+
+**Target Variables:**  
+- **Machine failure** (binary: 0/1)  
+- **Failure types (multi-class):**  
+  - TWF – Tool Wear Failure  
+  - HDF – Heat Dissipation Failure  
+  - PWF – Power Failure  
+  - OSF – Overstrain Failure  
+  - RNF – Random Failure  
+
+This dataset supports both **binary failure prediction** and **multi-class classification**, providing a rich testbed for predictive maintenance solutions.  
+
+---
+
+## Skills & Techniques Demonstrated
+
+### Physics & Engineering Insights
+- Thermal analysis (air vs. process temperature)  
+- Mechanical stress interpretation (torque and rotational speed)  
+- Tool wear progression and failure mechanism modeling  
+
+### Data Science & Machine Learning
 - Data cleaning and preprocessing  
-- Exploratory Data Analysis (EDA) with Seaborn & Matplotlib  
+- Exploratory Data Analysis (EDA) using Seaborn & Matplotlib  
 - Statistical modeling with Statsmodels  
-- Machine learning using Scikit-Learn  
 - Anomaly detection (Isolation Forest, PCA)  
-- Failure prediction models (Logistic Regression, Random Forest, Gradient Boosting)
+- Predictive modeling: Logistic Regression, Random Forest, Gradient Boosting  
+- Feature engineering and feature importance evaluation  
 
-### **Visualization & Reporting** 
-- Industrial-style plots & charts  
-- Final report in **MS Word**  
-- Executive summary in **PowerPoint**
+### Visualization & Reporting
+- Industrial-style charts and plots  
+- Structured report in MS Word  
+- Executive summary and actionable insights in PowerPoint  
 
 ---
+
+## Project Outcome
+
+- High-performing Random Forest model for failure prediction  
+- Feature insights show **tool wear, thermal stress, torque, and speed** as primary drivers of failure  
+- Model tested with unseen data, robust to missing or irrelevant columns  
+- Provides actionable insights for maintenance scheduling and risk reduction  
+
