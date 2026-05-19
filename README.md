@@ -10,21 +10,66 @@
 
 ## Project Overview
 
-Unplanned machine failures are costly in industries like Manufacturing, Automotive, and Aerospace. Predictive maintenance can prevent downtime by combining **sensor data**, **physics-based insights**, and **machine learning**.
+Modern industries such as Manufacturing, Automotive, and Aerospace heavily rely on machines operating continuously under varying operational conditions. Unexpected equipment failures can cause:
 
-**Key goals:**  
-- Predict machine failures before they occur  
-- Understand physical mechanisms behind different failure modes  
-- Provide actionable insights for industrial decision-making
-- Model Deployment to BigQuery Data Warehouse using robust pipelines 
+- Production downtime
+- Financial losses
+- Reduced operational efficiency
+- Increased maintenance costs
+- Safety risks
 
-**Highlights:**  
-- Physics-driven feature analysis (temperature, torque, rotational speed, tool wear)  
-- Statistical modeling to uncover relationships between operational parameters and failures  
-- Machine learning models for anomaly detection and predictive failure classification  
-- Professional reporting and visualization for stakeholders  
+This project develops an **Industrial Predictive Maintenance System** using:
+
+- Physics-based engineering insights
+- Sensor-driven analytics
+- Machine learning algorithms
+- Statistical modeling
+- Cloud data warehousing with Google BigQuery
+
+The system predicts machine failures before breakdowns occur and helps industries move from **reactive maintenance** to **predictive maintenance strategies**.
 
 ---
+
+# Problem Statement
+
+Traditional maintenance approaches are inefficient because they either:
+
+### Reactive Maintenance
+Machines are repaired only after failure occurs.
+
+### Scheduled Maintenance
+Components are replaced at fixed intervals regardless of actual machine condition.
+
+These approaches increase operational costs and waste resources.
+
+The challenge is to build an intelligent system capable of:
+
+- Detecting hidden failure patterns
+- Predicting failures before breakdowns
+- Understanding physical failure mechanisms
+- Reducing downtime and maintenance costs
+- Scaling analytics pipelines for industrial environments
+
+---
+
+# Project Goals
+
+The primary objectives of this project are:
+
+- Predict machine failures before they occur
+- Analyze physical relationships between operational variables
+- Identify key drivers of machine failure
+- Build robust machine learning models
+- Integrate ML workflows with Google BigQuery
+- Create scalable cloud-based analytics pipelines
+- Generate actionable maintenance insights
+
+---
+
+# BigQuery Integration & Cloud Pipeline
+
+This project demonstrates modern cloud-based industrial analytics workflows using **Google BigQuery**.
+
 
 ##  Dataset Description
 
