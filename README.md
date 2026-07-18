@@ -1,6 +1,6 @@
 # Predictive-Maintenance
 
-**Industrial Predictive Maintenance using Physics-Based Analytics, Sensor Data, and Machine Learning**
+Industrial Predictive Maintenance using Physics-Based Analytics, Sensor Data, and Machine Learning
 
 **Tags:** Physics · Vibration Analysis · Machine Learning · Industrial Analytics  
 
@@ -26,7 +26,7 @@ This project develops an **Industrial Predictive Maintenance System** using:
 - Statistical modeling
 - Cloud data warehousing with Google BigQuery
 
-The system predicts machine failures before breakdowns occur and helps industries move from **reactive maintenance** to **predictive maintenance strategies**.
+The system predicts machine failures before breakdowns occur and helps industries move from reactive maintenance to predictive maintenance strategies.
 
 ---
 
@@ -68,7 +68,7 @@ The primary objectives of this project are:
 
 # BigQuery Integration & Cloud Pipeline
 
-This project demonstrates modern cloud-based industrial analytics workflows using **Google BigQuery**.
+This project demonstrates modern cloud-based industrial analytics workflows using Google BigQuery.
 
 
 ##  Dataset Description
@@ -127,7 +127,7 @@ H → Heavy/Large machine
 ## Outcomes
 
 - High-performing Random Forest model for failure prediction  
-- Feature insights show **tool wear, thermal stress, torque, and speed** as primary drivers of failure  
+- Feature insights show tool wear, thermal stress, torque, and speed as primary drivers of failure  
 - Model tested with unseen data, robust to missing or irrelevant columns  
 - Provides actionable insights for maintenance scheduling and risk reduction  
 
